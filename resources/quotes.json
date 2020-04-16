@@ -1,0 +1,120 @@
+{
+  "_id" : 1,
+  "author" : "Yoda",
+  "adjective" : "inspirational",
+  "text" : "Do, or do not, there is no try."
+}
+{
+  "_id" : 2,
+  "author" : "Samwise Gamgee",
+  "adjective" : "movie",
+  "text" : "There's some good in this world, Mr. Frodo, and it's worth fighting for."
+}
+{
+  "_id" : 3,
+  "author" : "Sherlock Holmes",
+  "adjective" : "insightful",
+  "text" : "Never trust to general impressions, my boy, but concentrate yourself upon details."
+}
+{
+  "_id" : 4,
+  "author" : "Sherlock Holmes",
+  "adjective" : "influential",
+  "text" : "Education never ends, Watson. It is a series of lessons with the greatest for the last."
+}
+{
+  "_id" : 5,
+  "author" : "Indiana Jones",
+  "adjective" : "random",
+  "text" : "X never, ever, marks the spot."
+}
+{
+  "_id" : 6,
+  "author" : "Marty McFly",
+  "adjective" : "funny",
+  "text" : "Nobody calls me chicken!"
+}
+{
+  "_id" : 7,
+  "author" : "Biff Tannen",
+  "adjective" : "wrong",
+  "text" : "Why don't you make like a tree and get outta here."
+}
+{
+  "_id" : 8,
+  "author" : "Doc Brown",
+  "adjective" : "futuristic",
+  "text" : "Roads? Where we're going we don't need roads!"
+}
+{
+  "_id" : 9,
+  "author" : "Tony Stark",
+  "adjective" : "wise",
+  "text" : "Part of the journey is the end."
+}
+{
+  "_id" : 10,
+  "author" : "Tony Stark",
+  "adjective" : "important",
+  "text" : "No amount of money ever bought a second of time."
+}
+{
+  "_id" : 11,
+  "author" : "Thanos",
+  "adjective" : "fearless",
+  "text" : "The hardest choices require the strongest wills."
+}
+{
+  "_id" : 12,
+  "author" : "Tony Stark",
+  "adjective" : "inspirational",
+  "text" : "It's not enough to be against something. You have to be for something better."
+}
+{
+  "_id" : 13,
+  "author" : "Steve Rogers",
+  "adjective" : "bold",
+  "text" : "I can do this all day."
+}
+{
+  "_id" : 14,
+  "author" : "Nick Fury",
+  "adjective" : "advisory",
+  "text" : "You never know, you hope for the best and make do with what you get."
+}
+{
+  "_id" : 15,
+  "author" : "Shuri",
+  "adjective" : "interesting",
+  "text" : "Just because something works doesn't mean it can't be improved."
+}
+{
+  "_id" : 16,
+  "author" : "Admiral Ackbar",
+  "adjective" : "cautionary",
+  "text" : "It's a trap!"
+}
+{
+  "_id" : 17,
+  "author" : "Han Solo",
+  "adjective" : "courageous",
+  "text" : "Never tell me the odds!"
+}
+{
+  "_id" : 18,
+  "author" : "Shakespeare (Hamlet)",
+  "adjective" : "fancy",
+  "text" : "There is nothing either good or bad, but thinking makes it so."
+}
+{
+  "_id" : 19,
+  "author" : "George Lucas",
+  "adjective" : "motivating",
+  "text" : "Everybody has talent, it's just a matter of moving around until you've discovered what it is."
+}
+{
+  "_id" : 20,
+  "author" : "Steven Spielberg",
+  "adjective" : "encouraging",
+  "text" : "All good ideas start out as bad ideas, that’s why it takes so long."
+}
