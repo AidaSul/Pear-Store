@@ -11,7 +11,6 @@ echo
   <tr style=\"border: 1px solid black;\">
     <th style=\"border: 1px solid black;\">Image</th>
     <th style=\"border: 1px solid black;\">Name</th>
-    <th style=\"border: 1px solid black;\">Description</th>
     <th style=\"border: 1px solid black;\">Price</th>
     <th style=\"border: 1px solid black;\"># in Stock</th>
     <th style=\"border: 1px solid black;\">Purchase?</th>
@@ -21,7 +20,6 @@ if($cat->num_rows > 0){
     $product_id = $row['product_id'];
     $imageURL = $row['product_image_url'];
     $name = $row['product_name'];
-    $description = $row['product_description'];
     $price = $row['product_price'];
     $inventory = $row['product_inventory'];
     $id = $row['product_id'];
@@ -34,9 +32,6 @@ if($cat->num_rows > 0){
         </td>
         <td style=\"border: 1px solid black;\">
           $name
-        </td>
-        <td style=\"border: 1px solid black;\">
-          $description
         </td>
         <td style=\"border: 1px solid black;\">
           $price

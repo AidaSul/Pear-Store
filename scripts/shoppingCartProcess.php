@@ -1,5 +1,8 @@
+<!-- shoppingCartProcess.php-->
 <?php
 $retrying = isset($_GET['retrying']) ? true : false;
+$retrying2 = isset($_GET['retrying2']) ? true : false;
+$retrying3 = isset($_GET['retrying3']) ? true : false;
 $items =
     "SELECT
       my_order.order_id,
@@ -44,7 +47,21 @@ else
       <td class='Notification' colspan='7' style=\"border: 1px solid black;\">
       Please re-enter a product quantity not exceeding the inventory level.
       </td></tr>";
-    } 
+    }
+    else if ($retrying2)
+    {
+      echo"<tr style=\"border: 1px solid black;\">
+      <td class='Notification' colspan='7' style=\"border: 1px solid black;\">
+      Please re-enter a product quantity not less than or equal to 0.
+      </td></tr>";
+    }
+    else if ($retrying3)
+    {
+      echo"<tr style=\"border: 1px solid black;\">
+      <td class='Notification' colspan='7' style=\"border: 1px solid black;\">
+      Please re-enter a numeric product quantity.
+      </td></tr>";
+    }
     displayNewItemColumns($db, $product_id);
   }
   displayFooter($grandTotal);

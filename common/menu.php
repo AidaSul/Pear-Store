@@ -8,14 +8,13 @@
     <div class="w3-dropdown-content w3-bar-block w3-border">
       <a href="pages/eStoreInfo.php"
         class="w3-bar-item w3-button">e-store Info</a>
-      <a title="not yet active" 
-        href="pages/productCatalog.php"
+      <a href="pages/productCatalog.php"
         class="w3-bar-item w3-button">Products</a>
       <?php
         if(!isset($_SESSION['customer_id'])){
-        echo "<a class=\"w3-bar-item w3-button\"href=\"pages/registration.php\">
+        echo "<a class=\"w3-bar-item w3-button\" href=\"pages/registration.php\">
         Register</a>"; 
-        echo "<a class=\"w3-bar-item w3-button\"href=\"pages/login.php\">
+        echo "<a class=\"w3-bar-item w3-button\" href=\"pages/login.php\">
         Login</a>";
       }else{
         echo "<a class=\"w3-bar-item w3-button\" style=\"color: grey\">

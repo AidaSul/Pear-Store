@@ -24,17 +24,9 @@ $product = mysqli_query($db, $query);
 $row = mysqli_fetch_array($product, MYSQLI_ASSOC);
 $productInventory = $row['product_inventory'];
 $quantityRequested = $_GET['quantity'];
-if (!is_numeric($quantityRequested))
-{
-  header("Location: ../pages/shoppingCart.php?product_id=$product_id&retrying3=true");
-}
-else if ($quantityRequested > $productInventory)
+if ($quantityRequested > $productInventory)
 {
   header("Location: ../pages/shoppingCart.php?product_id=$product_id&retrying=true");
-}
-else if ($quantityRequested < 1)
-{
-  header("Location: ../pages/shoppingCart.php?product_id=$product_id&retrying2=true");
 }
 else
 {

@@ -23,7 +23,7 @@
       '/submissions/submission06//scripts/time.php';
 
       if(!isset($_SESSION['customer_id'])){
-        echo "<a class=\"w3-button w3-blue w3-round\"href=\"pages/login.php\">
+        echo "<a class=\"w3-button w3-blue w3-round\" href=\"pages/login.php\">
         Click Here To Log In</a>";
       }else{
         echo "<a class=\"w3-button w3-blue w3-round\"

@@ -1,3 +1,4 @@
+<!-- shoppingCartDeleteItem.php -->
 <?php
 session_start();
 include("dbconnection.php");

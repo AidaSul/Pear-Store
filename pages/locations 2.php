@@ -2,12 +2,15 @@
 <?php include '../common/docHead.html';?>
 <body class="Body w3-auto" style="max-width: 750px">
   <div class="w3-container">
+    <!-- banner -->
     <div>
       <?php include '../common/banner.php';?>
     </div>
+    <!-- menu -->
     <div>
       <?php include '../common/menu.php';?>
     </div>
+    <!-- mission -->
     <div class="w3-container w3-light-blue w3-border-right w3-border-left">
       <h3>Our Locations</h3>
       <p>
@@ -23,6 +26,7 @@
         Tel: 902.555.1234
       </p>
     </div>
+    <!-- footer -->
     <div>
       <?php include '../common/footer.html';?>
     </div>

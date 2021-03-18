@@ -3,10 +3,10 @@
 <body class="Body w3-auto" style="max-width: 750px">
   <div class="w3-container w3-center">
     <div>
-      <?php
-        include '../common/banner.php';
-        include '../common/menu.php';
-      ?>
+      <?php include '../common/banner.php';?>
+    </div>
+    <div>
+      <?php include '../common/menu.php';?>
     </div>
     <div class="w3-container w3-border-left w3-border-right w3-light-blue">
       <h4 class="w3-center">Registration Form</h4>
@@ -38,8 +38,7 @@
           <div class="w3-threequarter w3-container w3-left-align">
             <input required type="text" name="firstName" style="width: 75%;" 
             title="Starts with a capital, can contain spaces and hyphens"
-            pattern="^[A-Z][A-Za-z -]*$" required value="<?php 
-            if (isset($_POST['firstname'])) {echo $_POST['firstname'];}?>">
+            pattern="^[A-Z][A-Za-z -]*$" required value="<?php if (isset($_POST['firstname'])) {echo $_POST['firstname'];}?>">
             <span class="w3-text-red">*</span>
           </div>
         </div>

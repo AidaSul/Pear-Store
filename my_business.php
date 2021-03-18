@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <!-- my_business.php --> 
 <?php include 'common/docHead.html';?>
 <link rel="stylesheet" href="css/my_css.css">
@@ -65,3 +64,4 @@
     </div>
   </div>
 </body>
+</html>

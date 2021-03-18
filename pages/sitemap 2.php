@@ -23,8 +23,7 @@
             <li><a href="pages/productCatalog.php">Products</a></li>
             <?php
               if(!isset($_SESSION['customer_id'])){
-                echo "<li><a href=\"pages/registration.php\">
-                  Register</a></li>";
+                echo "<li><a href=\"pages/registration.php\">Register</a></li>"; 
                 echo "<li><a href=\"pages/login.php\">Login</a><li>";}
               else{
                 echo "<li><a style=\"color: grey\">Register</a></li>";

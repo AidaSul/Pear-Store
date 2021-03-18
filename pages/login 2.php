@@ -1,4 +1,4 @@
-<!-- login.php -->
+<!-- mission.php -->
 <?php
   include '../common/docHead.html';
   $retrying = isset($_GET['retrying']) ? true : false;
@@ -11,6 +11,7 @@
         include '../common/menu.php';
       ?>
     </div>
+    <!-- mission -->
     <div class="w3-container w3-light-blue w3-border-right w3-border-left">
       <h4 class="w3-center">
         <strong>Log in</strong>
@@ -19,19 +20,17 @@
       <span w3-padding-16>
         "Purchasing items from our on-line
         e-store requires logging in. And if you have not yet registered with 
-        Pear Inc, before attempting to log in you must"
+        Amazing Stuff, before attempting to log in you must"
         <a href="pages/sorry.html">Register here.</a>
         
       </span>
-      <form id="loginform" action="scripts/loginForm.php" method="post"
-       autocomplete="on">
+      <form id="loginform" action="scripts/loginForm.php" method="post" autocomplete="on">
         <div class="w3-row w3-section">
           <div class="w3-quarter w3-container">
             Login name: 
           </div>
           <div class="w3-threequarter w3-container w3-wide">
-            <input type="text" name="login_name" required style="width: 90%;"
-              value placeholder="Must be name assigned at registeration">
+            <input type="text" name="login_name" required style="width: 90%;" value placeholder="Must be name assigned at registeration">
           </div>
         </div>
 
@@ -40,8 +39,7 @@
             Password: 
           </div>
           <div class="w3-threequarter w3-container w3-wide">
-            <input type="password" name="password" required style="width: 90%;"
-              value placeholder="Must be password chosen at registeration">
+            <input type="password" name="password" required style="width: 90%;" value placeholder="Must be password chosen at registeration">
           </div>
         </div>
         <div class="w3-row w3-section">

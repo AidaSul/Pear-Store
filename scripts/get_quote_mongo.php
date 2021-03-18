@@ -1,3 +1,4 @@
+<!-- get_qoutes_mongos -->
 <?php
   include('/var/shared/vendor/autoload.php');
   include($_SERVER["CONTEXT_DOCUMENT_ROOT"] . '/../htpasswd/db_info.php');

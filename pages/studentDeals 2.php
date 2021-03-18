@@ -1,5 +1,7 @@
 <!-- studentDeal.php -->
 <?php include '../common/docHead.html';?>
+<head>
+</head>
 <body class="Body w3-auto" style="max-width: 750px">
   <div class="w3-container w3-center">
     <div>
@@ -30,26 +32,18 @@
              <li>Ready to purchase and already have a user name and password?
               <br>
               To log in to our e-store and begin shopping
-              <?php
-                if(!isset($_SESSION['customer_id'])){
-                  echo "<a href=\"pages/login.php\">click here.</a>";}
-                else{
-                  echo "<a title=\"already logged in.\"
-                  style=\"color: grey\">click here.</a>";}
-              ?>
+              <a 
+              href="pages/login.php">
+              click here.</a>
               (if not logged in already).
              </li>
              <li>Need to register for out e-store so you can make 
               purchases?
               <br>
               To register (you only need to do it once)
-              <?php
-                if(!isset($_SESSION['customer_id'])){
-                  echo "<a href=\"pages/registration.php\">click here.</a>";}
-                else{
-                  echo "<a title=\"already logged in.\"
-                  style=\"color: grey\">click here.</a>";}
-              ?>
+              <a 
+               href="pages/registration.php">
+             click here.</a>
              </li>
              <li>Trying to log in as a diffrent user?
               <br>
